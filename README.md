@@ -1,4 +1,4 @@
-# desciple
+# disciple
 Recruitment project
 
 
