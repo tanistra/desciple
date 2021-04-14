@@ -1,0 +1,17 @@
+{
+  "app": "desciple.ipa",
+  "device": "iOS",
+  "platformName": "iOS",
+  "browserName": "Chrome",
+  "appiumVersion": "1.18.3",
+  "deviceOrientation": "portrait",
+  "platformVersion": "14.0",
+  "deviceName": "iPhone .*",
+  "remote": "http://localhost:4723/wd/hub",
+  "xcodeOrgId": "",
+  "xcodeSigningId": "",
+  "updatedWDABundleId": "",
+  "bundleId": "",
+  "automationName": "XCUITest",
+  "udid": ""
+}

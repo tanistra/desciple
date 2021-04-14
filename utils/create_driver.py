@@ -38,6 +38,9 @@ def create_driver(
         desired_caps['automationName'] = 'UiAutomator2'
         if config_file['platformVersion'] == '6.0':
             desired_caps['browserName'] = config_file['browserName']
+    else:
+        raise KeyError(
+            f'Unknown test platform {platform}, please use ios or android')
     environment = config_file["remote"]
     log.info(f'Starting appium driver with caps: \n{desired_caps}')
     return webdriver.Remote(environment, desired_caps)
