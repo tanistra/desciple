@@ -1,0 +1,6 @@
+Appium-Python-Client==0.47
+selenium==3.141.0
+attrdict==2.0.1
+pytest==5.1.2
+allure-pytest==2.8.5
+coloredlogs==10.0

@@ -1,0 +1,15 @@
+{
+  "app": "desciple.apk",
+  "device": "Android",
+  "platformName": "Android",
+  "browserName": "Chrome",
+  "appiumVersion": "1.18.3",
+  "deviceOrientation": "portrait",
+  "deviceName": ".*",
+  "platformVersion": "8",
+  "remote": "http://localhost:4723/wd/hub",
+  "appPackage": "uk.co.disciplemedia.appiumqatest",
+  "appActivity": "uk.co.disciplemedia.activity.StartupActivity",
+  "unicodeKeyboard": "true",
+  "resetKeyboard": "true"
+}
