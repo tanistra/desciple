@@ -108,7 +108,7 @@ class WaitCommands:
                 f'\n{str(selector)} '
                 f'\n StackTrace: {str(e)}')
 
-    def wait_for_system_alert(self, wait=None):
+    def wait_for_system_alert(self, wait=None) -> None:
         """Wait for displaying system alert"""
         wait = wait or self.wait_time
         WebDriverWait(self.driver, wait).until(EC.alert_is_present())
@@ -127,7 +127,7 @@ class WaitCommands:
 
     def wait_for_element_not_clickable(
             self, selector: Tuple, wait: float = None) -> None:
-        """Wait some time until expected element will not be clicable
+        """Wait some time until expected element will not be clickable
             :param selector: element selector
             :param wait: time to wait
         """
@@ -143,7 +143,7 @@ class WaitCommands:
 
     def wait_for_element_to_be_clickable(
             self, selector: Tuple, wait: float = None) -> WebElement:
-        """Wait some time until expected element will not be clicable
+        """Wait some time until expected element will not be clickable
             :param selector: element selector
             :param wait: time to wait
         """

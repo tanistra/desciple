@@ -21,5 +21,10 @@ LOGIN_SIGNIN_PAGE: SELECTOR = {
     'PASSWORD_INPUT': (MobileBy.ID, 'reg_password'),
     'SIGN_IN_BTN': (MobileBy.ID, 'sign_up_p_sign_up_button'),
     'SWITCH_TO_LOG_IN_BTN': (MobileBy.ID, 'sign_up_p_log_in_button'),
-    'LOGIN_BTN': (MobileBy.ID, 'sign_up_p_sign_up_button')
+    'LOGIN_BTN': (MobileBy.ID, 'sign_up_p_sign_up_button'),
+    'FORGOT_PASSWORD_BTN': (MobileBy.ID, 'password_sub_text')
+}
+
+RESET_PASSWORD_PAGE: SELECTOR = {
+    'RESET_PASSWORD': (MobileBy.ID, 'btn_reset_password')
 }

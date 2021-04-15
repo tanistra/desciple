@@ -8,8 +8,8 @@ Recruitment project
 * Be sure you have python version > 3.6 installed
 
 # How to run project:
-* Put your app to the ./desciple/test_apps directory
-* Check project configuration in the ./desciple/configuration/android_config.json file
+* Put your app to the ./disciple/test_apps directory
+* Check project configuration in the ./disciple/configuration/android_config.json file
 * execute following commands:
 
 ` $ python3 -m venv ./venv`

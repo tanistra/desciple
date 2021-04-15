@@ -37,4 +37,12 @@ class LoginPage(DriverCommands):
 
     @allure.step('Fill in password filed with text {password}')
     def type_password(self, password):
-        self.fill_in(self.login_selectors['LOGIN_INPUT'], password)
+        self.fill_in(self.login_selectors['PASSWORD_INPUT'], password)
+
+    @allure.step('Click on the log in button')
+    def click_on_login(self):
+        self.click_element(self.login_selectors['LOGIN_BTN'])
+
+    @allure.step('Click on the forgot password link')
+    def click_of_forgot_password(self):
+        self.click_element(self.login_selectors['FORGOT_PASSWORD_BTN'])
